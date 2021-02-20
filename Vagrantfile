@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
     sudo dnf -y install git
   SHELL
 
-  config.vm.synced_folder "..", "/project"
+  config.vm.synced_folder "..", "/files"
 
   config.vm.provider "virtualbox" do |vb|
     vb.customize ["modifyvm", :id, "--usb", "on"]

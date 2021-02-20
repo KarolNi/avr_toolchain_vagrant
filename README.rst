@@ -32,7 +32,7 @@ This is intended to use as submodule in git
   vagrant up; vagrant ssh
 
 Your project will be located in
-  /project
+  /files
 
 4. to stop the toolchain VM
    
