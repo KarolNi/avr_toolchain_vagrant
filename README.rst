@@ -49,5 +49,5 @@ Your project will be located in
 Programmers
 -----------
 
-Currently just USBTiny ISP is configured for passthrough to Vagrant VM. You can add more by modifying Vagrant file using USBTiny ISP as example.
+Currently USBTiny and USBasp ISPs are configured for passthrough to Vagrant VM. You can add more by modifying Vagrant file using them as example.
 
